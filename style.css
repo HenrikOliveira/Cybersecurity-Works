@@ -1,0 +1,319 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+
+
+}
+
+
+body {
+  font-family: 'Playfair Display', serif;
+  overflow-x: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.details {
+  min-height: 10vh;
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  background-color: rgba(4, 71, 109, 0.944);
+  border-top-right-radius: 150px;
+  border: 3px solid rgba(56, 167, 198, 0.993);
+}
+
+.details-2 {
+  min-height: 1px;
+  border-top-left-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(12, 2, 27, 0.948);
+}
+
+.imagen{
+    width: 20%;
+   height: 10%;
+   margin-bottom: 1000px;
+  
+  }
+  .tituloP{
+    
+    margin-top: -10px;
+
+  }
+
+.ball-text {
+  position: fixed;
+  z-index: 2;
+  color: rgba(255, 255, 255, 0.477);
+  font-size: 5rem;
+  right: 20%;
+  bottom: 40%;
+  transform: translate(-20%, -40%);
+}
+
+@media screen and (max-width: 1024px) {
+  .ball-text {
+    font-size: 2rem;
+    right: 50%;
+    bottom: 25%;
+    transform: translate(50%, 50%);
+  }
+  h1 {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+#pix:hover{
+  
+
+  background-color: #3b08a0;
+ 
+
+
+}
+
+html,
+.root {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+body {
+  font: menu;
+  font-size: 1rem;
+  line-height: 1.4;
+  padding: 0;
+  margin: 0;
+}
+section {
+  padding-top: 4px;
+  width: 50px;
+  margin: auto;
+}
+h1 {
+  font-size: 20px;
+  color: white;
+  margin-left: 170px;
+}
+details[open] summary ~ * {
+  animation: open 0.7s ease-in-out;
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+details summary::-webkit-details-marker {
+  display: none;
+  margin-left: 15px;
+  animation: open 0.7s ;
+ 
+}
+
+details summary {
+  width: 100px;
+  margin-left: 57px;
+  border-top: 0.5px solid rgb(79, 0, 100);
+  position: relative;
+  cursor: pointer;
+  font-size: 23px;
+  color: rgb(246, 246, 246);
+  list-style: none;
+}
+
+details summary:after {
+  content: "👉";
+  color:white;
+  position: absolute;
+  font-size: 17px;
+ 
+  margin-top: 0.7px;
+  margin-left: 100px;
+  right: 0;
+  color: white;
+  transform-origin: center;
+  transition: 20ms linear;
+}
+details[open] summary:after {
+  transform: rotate(15deg);
+  font-size: 20px;
+  color: rgb(5, 145, 9);
+}
+details summary {
+  outline: 0;
+  margin-top: 5px;
+}
+details p {
+  font-size: 30px;
+  margin: 0 0 1rem;
+  padding-top: 10px;
+  margin-left: 100px;
+}
+
+.p-especial {
+
+   font-size: 17px;
+   color: white;
+
+  
+}
+
+.poc-1 {
+
+  margin: 10px;
+  width: 1000px;
+  height: 100px;
+  border-top: solid 2px rgb(103, 2, 103) ;
+  border-left: solid 3px green;
+  border-right: solid 1px gray;
+  border-bottom:solid 4px rgb(6, 126, 159);
+  border-radius: 15px;
+}
+
+.poc-2 {
+
+ margin-left: 550px;
+  margin: 10px;
+  width: 800px;
+  height: 100px;
+  border-top: solid 2px rgb(103, 2, 103) ;
+  border-left: solid 3px green;
+  border-right: solid 1px gray;
+  border-bottom:solid 4px rgb(6, 126, 159);
+  border-radius: 15px;
+}
+
+.poc-3 {
+
+  margin: 10px;
+  width: 800px;
+  height: 100px;
+  border-top: solid 2px rgb(18, 77, 144) ;
+  border-left: solid 3px rgba(8, 171, 8, 0.989);
+  border-right: solid 1px rgb(69, 7, 131);
+  border-bottom:solid 4px rgb(61, 48, 4);
+  border-radius: 15px;
+}
+
+
+
+
+
+.bloco1 {
+
+  width: 300px;
+  margin-left: 200px;
+  margin-top: 1px;
+}
+
+.bloco2 {
+
+margin-left: 125px;
+  width: 1222px;
+
+  margin-right: 600px;
+   
+}
+
+.bloco3 {
+   margin-right: 10px;
+  margin-left:50px;
+}
+
+
+.video {
+    
+    margin-left: 320px; 
+    border:2px solid #0dc94f;
+    border-top:2px solid #4f02eb;
+    border-right: 1px solid rgb(6, 158, 200);
+    border-radius: 17px;
+    box-shadow: 1px 2px 2px 2px purple;
+
+
+
+}
+
+.video::before {
+  content: "";
+  backgroun-image: conic-gradient(
+
+
+  );
+
+}
+
+
+.yoshida {
+  
+  width: 45px;
+  height: 70px;
+  margin-right:- 1700px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
